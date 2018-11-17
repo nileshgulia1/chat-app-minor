@@ -1,11 +1,11 @@
 module.exports = [
   {
-    name: 'Room 1 in Costa brava',
-    image: 'chatrooms/costabrava.jpg'
+    name: 'Room 1',
+    image: 'chatrooms/room.jpg'
   },
   {
-    name: 'Room 2 in Manresa HA ha',
-    image: 'chatrooms/Manresa.jpg'
+    name: 'Room 2',
+    image: 'chatrooms/room.jpg'
   },
 ]
 

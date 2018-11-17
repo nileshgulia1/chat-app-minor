@@ -1,26 +1,27 @@
 module.exports = [
   {
     name: 'User1',
-    lastName: 'Heyaa',
-    statusText: 'I am the leader!',
-    //image: 
+    lastName: '(Male)',
+    statusText: '',
+    image: 'chatrooms/male.jpg'
   },
   {
     name: 'User 2',
-    lastName: '',
-    statusText: 'Tokyo.'
+    lastName: '(Female)',
+    statusText: '',
+    image: 'chatrooms/female.jpg'
   },
   {
     name: 'User 3',
-    lastName: '',
-    statusText: 'In Costa Brava!',
-    ///image: 
+    lastName: '(Male)',
+    statusText: '',
+    image: 'chatrooms/male.jpg'
   },
   {
     name: 'user 4',
-    lastName: '',
-    statusText: 'In Dubai.',
-   // image:
-  }
+    lastName: '(Female)',
+    statusText: '',
+    image: 'chatrooms/female.jpg'
+   }
 ]
 
