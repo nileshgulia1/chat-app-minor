@@ -4,7 +4,8 @@
   "description": "group chat app built with socket.io and react.",
   "scripts": {
     "server": "node ./server/server.js",
-    "client": "webpack-dev-server"
+    "client": "webpack-dev-server",
+    "build": "webpack --env production"
   },
   "keywords": [
     "websocket",
