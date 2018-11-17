@@ -83,13 +83,16 @@ function renderAvatar(user) {
 }
 
 function fullName(user) {
-  return user ? `${user.name} ${user.lastName}` : 'Who are you?'
+  return user ? `${user.name} ${user.lastName}` : 'Click on the icon to select user!'
 }
 
 export default ({ children, user }) => (
   <FullScreen>
     <ContentWrapper>
-      <Center>
+     <Center>
+       <center><h1>WELCOME TO THE CHAT-APP!!!</h1>
+       </center>
+      
         <Content>
           <Relative>
             <Sticky>

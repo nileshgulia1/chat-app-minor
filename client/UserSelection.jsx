@@ -48,7 +48,7 @@ export default class UserSelection extends React.Component {
 
     return (
       <Dialog
-        title="Pick your character."
+        title="Choose your character."
         actions={actions}
         modal={false}
         open

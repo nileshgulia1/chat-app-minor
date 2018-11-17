@@ -146,6 +146,7 @@ export default class Chatroom extends React.Component {
       <div style={{ height: '100%' }}>
         <ChatWindow>
           <Header>
+            <h2>Choose your chat room</h2>
             <Title>
               { this.props.chatroom.name }
             </Title>
@@ -197,8 +198,8 @@ export default class Chatroom extends React.Component {
                 textareaStyle={{ color: '#fafafa' }}
                 hintStyle={{ color: '#fafafa' }}
                 floatingLabelStyle={{ color: '#fafafa' }}
-                hintText="Enter a message."
-                floatingLabelText="Enter a message."
+                hintText="Enter your message."
+                floatingLabelText="Enter your message."
                 multiLine
                 rows={4}
                 rowsMax={4}

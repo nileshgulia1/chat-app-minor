@@ -7,7 +7,8 @@ export default ({
   onEnterChatroom
 }) => (
   <div>
-    {
+      <h2><pre> Choose your chat room!</pre></h2>   
+    { 
       chatrooms.map(chatroom => (
         <ChatroomPreview
           key={chatroom.name}
