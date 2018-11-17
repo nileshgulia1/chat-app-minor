@@ -35,12 +35,6 @@ module.exports = {
     })
   ],
   devServer: {
-    proxy: {
-      '/api': {
-        target: 'https://chat-app-minor.herokuapp.com',
-        secure: false,
-      }
-    },
     port: 3001,
     contentBase: path.resolve(__dirname, 'public'),
     hot: true,
