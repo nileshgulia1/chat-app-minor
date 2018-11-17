@@ -1,4 +1,5 @@
-# Chat-app
+# Chat-app 
+[![Build Status](https://travis-ci.com/nileshgulia1/Chat-app.svg?token=VmVLiFqU4WdaTYauETyF&branch=master)](https://travis-ci.com/nileshgulia1/Chat-app)
 
 ### Development Build
 
