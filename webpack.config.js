@@ -36,7 +36,7 @@ module.exports = {
   ],
   devServer: {
     proxy: {
-      '/api': {
+      '/': {
         target: 'https://chat-app-minor.herokuapp.com',
         secure: false,
       }
