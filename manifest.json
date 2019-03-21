@@ -1,0 +1,15 @@
+{
+  "short_name": "React-chat PWA",
+  "name": "My React PWA",
+  "icons": [
+    {
+      "src": "./public/background.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
